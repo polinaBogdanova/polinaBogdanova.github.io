@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "PTSansBold";
+  src: url("Fonts/fonts/PTSansBold.ttf"); }
+@font-face {
+  font-family: "PTSansRegular";
+  src: url("Fonts/fonts/PTSansRegular.ttf"); }
+* {
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  background-color: #fcdb00;
+  height: 742px; }
+
+.header {
+  padding-top: 49px;
+  font-family: PTSansBold;
+  display: flex;
+  justify-content: space-between; }
+  .header p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 10px; }
+
+.logo {
+  display: flex;
+  padding-left: 85px; }
+
+.menu {
+  display: flex;
+  font-size: 22px;
+  font-weight: bold; }
+  .menu a {
+    text-decoration: none;
+    color: black;
+    margin: 8px 65px; }
+
+.rightSide {
+  margin-right: 10%; }
+
+.leftSide {
+  margin-left: 13%;
+  padding-top: 95px; }
+  .leftSide h1 {
+    font-family: PTSansBold;
+    font-size: 32px; }
+  .leftSide h3 {
+    font-family: PTSansRegular;
+    font-size: 20px;
+    color: #313841; }
+  .leftSide p {
+    color: #555555;
+    font-size: 16px;
+    font-family: PTSansRegular; }
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 95px; }
+  .content .phone__back {
+    background: #ffffff;
+    width: 316px;
+    height: 470px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    padding: 57px 0 0 0; }
+  .content .phone__front {
+    background: #010101;
+    width: 288px;
+    height: 382px;
+    display: flex;
+    justify-content: center;
+    padding: 43px 4px 0px 4px; }
+
+.header__block {
+  display: flex;
+  padding-top: 139px; }
+  .header__block p {
+    color: #fcdb00;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: PTSansBold;
+    margin: 0 10px; }
+
+/*# sourceMappingURL=output.css.map */
