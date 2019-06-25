@@ -15,7 +15,7 @@
 .wrapper {
   background-color: #fcdb00;
   height: 742px;
-  margin-left: 123px;
+  margin: auto;
   width: 85%; }
 
 .header {
@@ -95,7 +95,7 @@
   padding-top: 118px;
   width: 80%;
   height: 742px;
-  padding-left: 115px; }
+  margin: auto; }
   .wrapper_page2 .title p {
     text-align: center; }
   .wrapper_page2 h3 {
@@ -113,12 +113,14 @@
     font-size: 22px;
     padding-left: 4%;
     font-family: PTSansBold; }
-  .wrapper_page2 .icon__fonts {
-    display: flex;
+
+.icon__font {
+  display: flex; }
+  .icon__font .icon__fonts {
     padding-top: 91px; }
-    .wrapper_page2 .icon__fonts #description {
+    .icon__font .icon__fonts #description {
       display: flex; }
-    .wrapper_page2 .icon__fonts p {
+    .icon__font .icon__fonts p {
       padding-left: 13%;
       font-size: 16px;
       color: #898989; }
