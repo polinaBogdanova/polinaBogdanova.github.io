@@ -91,9 +91,21 @@
   justify-content: space-between;
   width: 200px; }
 
+.dots {
+  display: flex;
+  justify-content: space-around;
+  width: 46px;
+  margin: auto;
+  padding-top: 10px; }
+  .dots #dot {
+    background: white;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%; }
+
 .wrapper_page2 {
   padding-top: 118px;
-  width: 80%;
+  width: 95%;
   height: 742px;
   margin: auto; }
   .wrapper_page2 .title p {
@@ -114,15 +126,80 @@
     padding-left: 4%;
     font-family: PTSansBold; }
 
+.wrapper__icon__fonts {
+  display: flex;
+  flex-wrap: wrap; }
+
 .icon__font {
-  display: flex; }
-  .icon__font .icon__fonts {
-    padding-top: 91px; }
-    .icon__font .icon__fonts #description {
-      display: flex; }
-    .icon__font .icon__fonts p {
-      padding-left: 13%;
-      font-size: 16px;
-      color: #898989; }
+  display: flex;
+  width: 32%;
+  padding-top: 80px;
+  margin: auto; }
+  .icon__font p {
+    padding-left: 13%;
+    font-size: 16px;
+    color: #898989; }
+
+#description {
+  padding-left: 5%; }
+
+.footer {
+  background: #010101; }
+
+.wrapper_page3 {
+  background: #010101;
+  height: 646px;
+  width: 80%;
+  margin: auto;
+  padding-top: 86px; }
+  .wrapper_page3 h1 {
+    color: #fcdb00;
+    font-family: PTSansBold;
+    font-size: 32px;
+    text-align: center; }
+  .wrapper_page3 h3 {
+    color: #898989;
+    font-family: PTSansRegular;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    width: 800px; }
+
+.user {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 3.4px;
+  width: 95%;
+  padding-top: 20px; }
+  .user button {
+    background: #fcdb00;
+    width: 126px;
+    height: 50px;
+    font-family: PTSansBold;
+    border: solid #fcdb00;
+    border-radius: 3.4px; }
+  .user input {
+    width: 580px;
+    height: 50px;
+    border-radius: 3.4px;
+    border: solid white; }
+
+.networks {
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+  margin: auto;
+  padding-top: 105px; }
+
+#footer {
+  display: flex;
+  width: 65%;
+  margin: auto;
+  text-align: left;
+  padding-top: 185px;
+  font-family: PTSansRegular;
+  font-size: 16px; }
+  #footer div {
+    color: #ffffff; }
 
 /*# sourceMappingURL=output.css.map */

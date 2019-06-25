@@ -1,0 +1,45 @@
+@media only screen and (max-width: 980px) {
+.container {
+    height: 817px;
+}
+.wrapper {
+    width: 85%;
+}
+.leftSide {
+    visibility: hidden;
+}
+
+.rightSide {
+    padding-right: 260px;
+}
+
+.wrapper .menu {
+    display: inline-grid;
+}
+.content {
+    padding-top: 30px;
+}
+
+.dots {
+    visibility: hidden;
+}
+
+.wrapper_page3 .user {
+    visibility: hidden;
+}
+
+.wrapper_page3 h3 {
+    visibility: hidden;
+}
+
+.wrapper_page3 .networks
+{
+    display: grid;
+    padding-top: 0;
+
+}
+.wrapper_page3 .networks img {
+    padding-top: 10px;
+}
+#footer {padding-top: 130px}
+}
