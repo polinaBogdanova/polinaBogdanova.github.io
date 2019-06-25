@@ -8,9 +8,15 @@
   margin: 0;
   padding: 0; }
 
+.container {
+  background: #fcdb00;
+  height: 742px; }
+
 .wrapper {
   background-color: #fcdb00;
-  height: 742px; }
+  height: 742px;
+  margin-left: 123px;
+  width: 85%; }
 
 .header {
   padding-top: 49px;
@@ -23,8 +29,7 @@
     margin: 0 10px; }
 
 .logo {
-  display: flex;
-  padding-left: 85px; }
+  display: flex; }
 
 .menu {
   display: flex;
@@ -35,12 +40,10 @@
     color: black;
     margin: 8px 65px; }
 
-.rightSide {
-  margin-right: 10%; }
-
 .leftSide {
-  margin-left: 13%;
-  padding-top: 95px; }
+  padding-top: 85px; }
+  .leftSide div {
+    padding-top: 13px; }
   .leftSide h1 {
     font-family: PTSansBold;
     font-size: 32px; }
@@ -82,5 +85,42 @@
     font-weight: bold;
     font-family: PTSansBold;
     margin: 0 10px; }
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 200px; }
+
+.wrapper_page2 {
+  padding-top: 118px;
+  width: 80%;
+  height: 742px;
+  padding-left: 115px; }
+  .wrapper_page2 .title p {
+    text-align: center; }
+  .wrapper_page2 h3 {
+    font-family: PTSansBold;
+    font-size: 32px;
+    display: flex;
+    justify-content: center; }
+  .wrapper_page2 p {
+    font-family: PTSansRegular;
+    font-size: 20px;
+    color: #313841;
+    display: flex;
+    justify-content: center; }
+  .wrapper_page2 h4 {
+    font-size: 22px;
+    padding-left: 4%;
+    font-family: PTSansBold; }
+  .wrapper_page2 .icon__fonts {
+    display: flex;
+    padding-top: 91px; }
+    .wrapper_page2 .icon__fonts #description {
+      display: flex; }
+    .wrapper_page2 .icon__fonts p {
+      padding-left: 13%;
+      font-size: 16px;
+      color: #898989; }
 
 /*# sourceMappingURL=output.css.map */
