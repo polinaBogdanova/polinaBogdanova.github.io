@@ -1,0 +1,207 @@
+@font-face {
+  font-family: "PTSansBold";
+  src: url("Fonts/fonts/PTSansBold.ttf"); }
+@font-face {
+  font-family: "PTSansRegular";
+  src: url("Fonts/fonts/PTSansRegular.ttf"); }
+* {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  background: #fcdb00;
+  height: 742px; }
+
+.wrapper {
+  background-color: #fcdb00;
+  height: 742px;
+  margin: auto;
+  width: 85%; }
+
+.header {
+  padding-top: 49px;
+  font-family: PTSansBold;
+  display: flex;
+  justify-content: space-between; }
+  .header p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 10px; }
+
+.logo {
+  display: flex; }
+
+.menu {
+  display: flex;
+  font-size: 22px;
+  font-weight: bold; }
+  .menu a {
+    text-decoration: none;
+    color: black;
+    margin: 8px 65px; }
+
+.leftSide {
+  padding-top: 85px; }
+  .leftSide div {
+    padding-top: 13px; }
+  .leftSide h1 {
+    font-family: PTSansBold;
+    font-size: 32px; }
+  .leftSide h3 {
+    font-family: PTSansRegular;
+    font-size: 20px;
+    color: #313841; }
+  .leftSide p {
+    color: #555555;
+    font-size: 16px;
+    font-family: PTSansRegular; }
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 95px; }
+  .content .phone__back {
+    background: #ffffff;
+    width: 316px;
+    height: 470px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    padding: 57px 0 0 0; }
+  .content .phone__front {
+    background: #010101;
+    width: 288px;
+    height: 382px;
+    display: flex;
+    justify-content: center;
+    padding: 43px 4px 0px 4px; }
+
+.header__block {
+  display: flex;
+  padding-top: 139px; }
+  .header__block p {
+    color: #fcdb00;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: PTSansBold;
+    margin: 0 10px; }
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 200px; }
+
+.dots {
+  display: flex;
+  justify-content: space-around;
+  width: 46px;
+  margin: auto;
+  padding-top: 10px; }
+  .dots #dot {
+    background: white;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%; }
+
+.wrapper_page2 {
+  padding-top: 118px;
+  width: 95%;
+  height: 742px;
+  margin: auto; }
+  .wrapper_page2 .title p {
+    text-align: center; }
+  .wrapper_page2 h3 {
+    font-family: PTSansBold;
+    font-size: 32px;
+    display: flex;
+    justify-content: center; }
+  .wrapper_page2 p {
+    font-family: PTSansRegular;
+    font-size: 20px;
+    color: #313841;
+    display: flex;
+    justify-content: center; }
+  .wrapper_page2 h4 {
+    font-size: 22px;
+    padding-left: 4%;
+    font-family: PTSansBold; }
+
+.wrapper__icon__fonts {
+  display: flex;
+  flex-wrap: wrap; }
+
+.icon__font {
+  display: flex;
+  width: 32%;
+  padding-top: 80px;
+  margin: auto; }
+  .icon__font p {
+    padding-left: 13%;
+    font-size: 16px;
+    color: #898989; }
+
+#description {
+  padding-left: 5%; }
+
+.footer {
+  background: #010101; }
+
+.wrapper_page3 {
+  background: #010101;
+  height: 646px;
+  width: 80%;
+  margin: auto;
+  padding-top: 86px; }
+  .wrapper_page3 h1 {
+    color: #fcdb00;
+    font-family: PTSansBold;
+    font-size: 32px;
+    text-align: center; }
+  .wrapper_page3 h3 {
+    color: #898989;
+    font-family: PTSansRegular;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    width: 800px;
+    display: flex;
+    margin: auto;}
+
+.user {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 3.4px;
+  width: 95%;
+  padding-top: 20px; }
+  .user button {
+    background: #fcdb00;
+    width: 126px;
+    height: 50px;
+    font-family: PTSansBold;
+    border: solid #fcdb00;
+    border-radius: 3.4px; }
+  .user input {
+    width: 580px;
+    height: 50px;
+    border-radius: 3.4px;
+    border: solid white; }
+
+.networks {
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+  margin: auto;
+  padding-top: 105px; }
+
+#footer {
+  display: flex;
+  width: 65%;
+  margin: auto;
+  text-align: left;
+  padding-top: 185px;
+  font-family: PTSansRegular;
+  font-size: 16px; }
+  #footer div {
+    color: #ffffff; }
+
+/*# sourceMappingURL=output.css.map */

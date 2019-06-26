@@ -1,6 +1,6 @@
 @media only screen and (max-width: 980px) {
 .container {
-    height: 1300px;
+    height: 812px;
 }
 .wrapper {
     width: 85%;
@@ -50,4 +50,15 @@
     padding-top: 10px;
 }
 #footer {padding-top: 130px}
+}
+
+@media only screen and (max-width: 1600px) {
+    .wrapper .rightSide {
+        margin-right: 109px;
+    }
+
+    .wrapper .leftSide {
+        margin-left: 50px;
+    }
+
 }
