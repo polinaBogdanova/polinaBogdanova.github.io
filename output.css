@@ -94,7 +94,7 @@
 .dots {
   display: flex;
   justify-content: space-around;
-  width: 46px;
+  width: 75px;
   margin: auto;
   padding-top: 10px; }
   .dots #dot {
@@ -105,17 +105,17 @@
 
 .wrapper_page2 {
   padding-top: 118px;
-  width: 95%;
+  width: 80%;
   height: 742px;
   margin: auto; }
-  .wrapper_page2 .title p {
+  .wrapper_page2 .title h3 {
     text-align: center; }
-  .wrapper_page2 h3 {
+  .wrapper_page2 h2 {
     font-family: PTSansBold;
     font-size: 32px;
     display: flex;
     justify-content: center; }
-  .wrapper_page2 p {
+  .wrapper_page2 h3 {
     font-family: PTSansRegular;
     font-size: 20px;
     color: #313841;
@@ -123,8 +123,10 @@
     justify-content: center; }
   .wrapper_page2 h4 {
     font-size: 22px;
-    padding-left: 4%;
+    padding-left: 13%;
     font-family: PTSansBold; }
+  .wrapper_page2 p {
+    font-family: PTSansRegular; }
 
 .wrapper__icon__fonts {
   display: flex;
@@ -152,27 +154,27 @@
   width: 80%;
   margin: auto;
   padding-top: 86px; }
-  .wrapper_page3 h1 {
-    color: #fcdb00;
-    font-family: PTSansBold;
-    font-size: 32px;
-    text-align: center; }
-  .wrapper_page3 h3 {
-    color: #898989;
-    font-family: PTSansRegular;
-    font-size: 20px;
-    text-align: center;
-    padding-top: 20px;
-    width: 800px;
-    display: flex;
-    margin: auto;}
+
+.title2 h2 {
+  color: #fcdb00;
+  font-family: PTSansBold;
+  font-size: 32px;
+  display: flex;
+  justify-content: center; }
+.title2 h3 {
+  color: #898989;
+  font-family: PTSansRegular;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center; }
 
 .user {
   display: flex;
   justify-content: space-evenly;
   border-radius: 3.4px;
   width: 95%;
-  padding-top: 20px; }
+  padding-top: 30px; }
   .user button {
     background: #fcdb00;
     width: 126px;

@@ -62,3 +62,22 @@
     }
 
 }
+
+@media only screen and (min-width: 1700px) {
+
+
+
+.wrapper {
+    width: 60%;
+
+}
+ .wrapper.rightSide {
+        padding-right: 120px;
+    }
+    .wrapper_page2 {
+        width: 60%;
+    }
+    .wrapper_page3 {
+        width: 60%;
+    }
+}
